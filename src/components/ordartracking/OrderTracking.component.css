@@ -1,0 +1,52 @@
+/* Base styles for the tracking form */
+.tracking {
+    margin: auto;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Base styles for input fields and button */
+.tracking input,
+.tracking button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Base styles for the order tracking title */
+.order b {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+    .tracking {
+        width: 90%;
+    }
+
+    .order b {
+        font-size: 20px;
+    }
+}
+
+/* Media query for medium screens */
+@media (min-width: 577px) and (max-width: 768px) {
+    .tracking {
+        width: 90%;
+    }
+
+    .order b {
+        font-size: 23px;
+    }
+}
+
+/* Media query for large screens */
+@media (min-width: 769px) {
+    /* Adjust styles as needed for large screens */
+}

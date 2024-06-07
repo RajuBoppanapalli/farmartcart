@@ -1,0 +1,19 @@
+.compare-img img{
+    width: 150px;
+    height: 150px;
+}
+.compare-div{
+    margin: 40px;
+
+}
+.addtocart{
+    display: flex;
+    gap: 10px;
+}
+.wish-qan{
+    width: fit-content;
+    height: 35px;
+    border: 1px solid gray;
+    display: flex;
+   
+}

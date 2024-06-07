@@ -1,0 +1,56 @@
+.store{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    
+}
+.breadcrumb{
+    background-color: #F8F9FA;
+   padding: 15px;
+
+
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: black;
+}
+.store-name{
+    margin-left: 45%;
+    padding: 10px;
+}
+.stores-head{
+    display: flex;
+    background-color:  #F8F9FA;
+    border: #e5e2e2;
+    padding: 10px;
+    
+}
+.star{
+    color: #e9bf05;
+    font-size: 13px;
+}
+.store-grid{
+    margin-left: 70%;
+   gap: 10px;
+}
+.store-item{
+    border: 1px solid  #e5e2e2;
+    margin-top: 20px;
+    background-color:#F8F9FA ;
+}
+.store-image{
+width: 180px;
+height: 180px;
+margin-left: 40px;
+}
+.store-info{
+    margin-left: 30px;
+    line-height: 35px; 
+    border-bottom:1px solid  #e5e2e2;
+}
+.store-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    background-color:#F8F9FA ;
+}

@@ -1,0 +1,31 @@
+.map{
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.contact-head{
+    margin-left: 40%;
+}
+.contact-info{
+   
+    margin-left: 30px;
+    line-height: 35px;
+    padding: 20px;
+    border-right: 1px solid #dbd8d8;
+    margin-bottom: 40px;
+   
+    
+}
+.contact-details{
+    display: flex;
+    margin-left: 50px;
+    border-bottom: 1px solid #dbd8d8;
+ 
+   
+}
+.drop-line{
+    margin-left: 40px;
+    margin-bottom: 50px;
+  
+
+}

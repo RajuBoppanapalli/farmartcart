@@ -1,0 +1,106 @@
+
+.slider-container{
+    margin: 30px;
+    margin-top: 50px;
+
+}
+.Cabbage-head{
+    display: flex;
+    margin-top: 80px;
+    gap: 30px;
+}
+.Cabbage-arrow{
+    margin-left:65%;
+}
+
+.Cabbage-full{
+    width: 200px;
+    border: 1px solid  #dbd8d8;
+    margin-top: 20px;
+    position: relative;
+}
+.start{
+    color: #e9bf05;
+    font-size: 14px;
+}
+.Cabbage-disp-dis{
+    color: #0099ff;
+}
+.Cabbage-disp-dis:hover{
+    color: #e98605;
+}
+del{
+    font-size: 14px;
+}
+.Cabbage-rate{
+    color: #CB4321;
+}
+.Cabbage-cart{
+    display:none;
+}
+.Cabbage-quantity{
+    border: 1px solid rgb(194, 192, 192);
+    width: 70px;
+    height: 30px;
+}
+.Cabbage-full:hover .Cabbage-cart{
+    display: block;
+}
+.Cabbage-icons{
+    position: absolute;
+    top: 10px;
+    left:80%;
+    color:#f8cc07;
+    display: none;
+
+}
+.percent{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #FF8C46;
+    color: white;
+    width: 40px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 8px;
+}
+.Hot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color:#26901B;
+    color: white;
+    width: 40px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 8px;
+
+}
+.Cabbage-full:hover .Cabbage-icons{
+    display: block;
+}
+.Cabbage-img img{
+width: 200px;
+height: 200px;
+margin-top: 10px;
+
+}
+.Cabbage-disp{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+.Cabbage-sale{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}.Cabbage-cart{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}

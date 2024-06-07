@@ -1,0 +1,326 @@
+.nav {
+  display: flex;
+
+    margin: 1px;
+    background-color: #f8f9fa;
+}
+
+
+.nav1-ul {
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+ gap: 10px;
+ font-size: 15px;
+    width: fit-content;
+}
+
+.nav1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav1-sub{
+  width:fit-content;
+  margin-left: 70%;
+margin-top: -40px;
+font-size: 15px;
+    position: relative;
+}
+
+.nav1-sub ul {
+   list-style: none;
+    display: flex;
+    flex-direction: row;
+gap: 20px;
+  
+}
+
+.main-item{
+margin-top:5px;
+}
+.name{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.name-user{
+    margin-top: 5px;
+}
+.logout-btn{
+    margin-top: -5px;
+}
+
+.main-item ul{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    display: none;
+    background-color:white;
+    font-size: 14px;
+    margin-left: -10px;
+    z-index: 111;
+}
+.nabar-footer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:800px;
+   
+    display: none;
+  
+
+}
+.navbar-footer-icons{
+ margin-left: 50px;
+}
+
+.nav-logo{
+    width: 200px;
+    height:50px;
+}
+.yourcarts{
+    font-size: 14px;
+    width: 70px;
+   
+}
+.navbar2{
+display: flex;
+position:sticky;
+top:0;
+z-index:1;
+background-color: white;
+
+
+}
+.icon-large{
+    width: 30px;
+    
+}
+.nav2 img{
+    margin-left: 20px;
+}
+.nav2-1
+{
+    margin-top: 15px;
+   
+    background-color: #f5f5f5;
+padding: 8px;
+
+ width: 500px;
+ height: 60px;
+ border-radius: 5px;
+} 
+.nav2-2
+{
+ margin-left: 30px; 
+ margin-top: 10px; 
+ width: fit-content;
+
+} .nav2-3
+{
+    
+    margin-left: 10px;
+ margin-top: 20px; 
+
+} 
+.nav2-3 a{
+    text-decoration: none;
+    color: black;
+} 
+.search{
+    border: none;
+    
+
+}
+.nav2 img{
+width: 200px;
+
+
+}
+.nav2-3{
+    position: relative;
+    gap: 10px;
+}
+.notif{
+    position: absolute;
+    top:-5px;
+    left: 25px;
+    background-color: #FAB528;
+    width: 18px;
+    height: 13px;
+    font-size: 10px;
+    color: black;
+    padding-left: 4px;
+    font-weight: 600;
+    border-radius: 3px;
+
+}
+
+
+.notif1{
+    position: absolute;
+    top:-5px;
+    left:75px;
+    background-color: #FAB528;
+    width: 18px;
+    height: 13px;
+    font-size: 10px;
+    color: black;
+    padding-left: 4px;
+    font-weight: 600;
+    border-radius: 3px;
+
+}
+.notif2{
+    position: absolute;
+    top:-5px;
+    left: 120px;
+    background-color: #FAB528;
+    width: 18px;
+    height: 13px;
+    font-size: 10px;
+    color: black;
+    padding-left: 4px;
+    font-weight: 600;
+    border-radius: 3px;
+
+}
+
+.nav22 {
+    border-bottom: 1px solid rgb(218, 215, 215);
+    display: flex;
+   
+}
+
+
+.ash{
+    background-color:#FAB528;
+    margin-right: 10px;
+    border-radius:5px;
+   
+
+}
+
+.asshh-1{
+ 
+   margin-right: 160px;
+   display: flex;
+ color: black;
+
+
+}
+.me-auto{
+    gap: 10px;
+    
+
+
+}
+.yourcart{
+    margin-top:-10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.fruitsmain{
+    width: fit-content;
+    margin-left: 220px;
+    background-color: rgb(255, 255, 255);
+ position: absolute;
+ border: 1px solid #f5f5f5;
+ border-radius: 10px;
+ z-index: 1;
+    display: none;
+}
+.fruitsdiv{
+    display:  flex;
+    gap: 40px;
+    padding: 30px;
+}
+.fruitsdiv ul{
+    list-style: none;
+}
+#fruit:hover.fruitsmain{
+    display: block;
+}
+.list-head{
+    margin-left: 30px;
+    font-size: 15px;
+  
+}
+
+.Bread{
+  
+    margin-top: 40px;
+    margin-left: 220px;
+    background-color: rgb(255, 255, 255);
+ position: absolute;
+ border: 1px solid #f5f5f5;
+ border-radius: 10px;
+ z-index: 1;
+  
+}
+ul ul {
+    display: none;
+}
+
+
+li:hover > ul {
+    display: block;
+}
+
+
+.highlight {
+    font-weight: bold;
+}
+.nav-cart-img img{
+    width: 50px;
+    height: 50px;
+}
+.nav-cart-hov{
+    background-color:white;
+   margin-top:10px;
+    width: 350px;
+
+    padding: 10px;
+    color: black;
+}
+.nav-cart-tdet{
+    width: 300px;
+  border-bottom: 1px solid#d6d1d1;
+   
+}
+.nav-cart-btn{
+    display: flex;
+}
+
+@media (max-width: 576px) {
+    .nav1-sub {
+        text-align: left;
+    }
+    .nav1 ul li, .nav1-sub ul li {
+        display: block;
+        margin-right: 0;
+        padding: 5px 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .nabar-footer{
+      
+       display: flex;
+       flex-wrap: wrap;
+       display: block;
+       max-width: 800px;
+       position: sticky;
+       bottom: 0px;
+       
+      
+    
+    }
+    .navbar-footer-icons{
+     margin-left: 50px;
+    }
+    
+
+  
+  }
+  
+

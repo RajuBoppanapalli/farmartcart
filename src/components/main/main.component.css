@@ -1,0 +1,27 @@
+.main-Carousel {
+    display: flex;
+ 
+    margin: 10px;
+}
+
+.main-Carousel-inner{
+    margin-top: 30px;
+  
+}
+.main-Carousel1 img{
+    width:800px;
+    height: 400px;
+   
+}
+.Carousel-main{
+    position: relative;
+}
+
+
+   .main-Carousel-inner1 img{
+    margin-left: 10px;
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 20px;
+   }

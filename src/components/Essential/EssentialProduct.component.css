@@ -1,0 +1,135 @@
+
+.slider-container{
+    margin: 30px;
+    margin-top: 50px;
+
+}
+.Essential-head{
+    display: flex;
+    margin-top: 80px;
+    gap: 30px;
+}
+.Essential-arrow{
+    margin-left:70%;
+}
+.Essential-arrow span{
+    background-color: #f5f5f5;
+}
+
+.Essential-full{
+    border: 1px solid  #eee;
+    margin-top: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+.start{
+    color: #e9bf05;
+    font-size: 14px;
+}
+.Essential-disp-dis{
+
+height: 40px;
+    color: #0099ff;
+}
+.Essential-disp-dis:hover{
+    color: #e98605;
+}
+del{
+    font-size: 14px;
+}
+.Essential-rate{
+    color: #CB4321;
+}
+.Essential-cart{
+    display:none;
+}
+.Essential-quantity{
+    border: 1px solid rgb(194, 192, 192);
+    width: 70px;
+    height: 30px;
+}
+.Essential-full:hover .Essential-cart{
+    display: block;
+}
+.Essential-icons{
+    position: absolute;
+    top: 10px;
+    left:80%;
+    color:#f8cc07;
+    display: none;
+
+}
+.percent{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #FF8C46;
+    color: white;
+    width: 40px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 8px;
+}
+.Hot{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color:#26901B;
+    color: white;
+    width: 40px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 8px;
+
+}
+.Essential-full:hover .Essential-icons{
+    display: block;
+}
+.Essential-img img{
+width: 200px;
+height: 200px;
+margin-top: 10px;
+
+}
+.Essential-disp{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+.Essential-sale{
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.Essential-cart{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.wishlis-pop{
+    background-color: orange;
+    padding: 8px;
+    border-radius: 20px;
+    position:fixed;
+    top: 170px;
+    right: 100px;
+    color: white;
+    font: 18px;
+}
+.heart{
+   color: palevioletred;
+}
+.compare-pop{
+    background-color: orange;
+    padding: 8px;
+    border-radius: 20px;
+    position:fixed;
+    top: 170px;
+    right: 100px;
+    color: white;
+    font: 18px;
+}
